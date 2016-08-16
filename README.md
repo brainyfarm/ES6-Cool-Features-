@@ -1,7 +1,47 @@
-<<<<<<< HEAD
 # ES6-Cool-Features-
 Some cool stuff about ES6
-<<<<<<< HEAD
+
+## Constants (Olah Femi Johson)
+
+The const declaration creates a read-only reference to a value.
+It does not mean the value it holds is immutable, just that the variable identifier cannot be reassigned.
+Notice: this only makes the variable itself immutable, not its assigned content
+(for instance, in case the content is an object, this means the object itself can still be altered).
+
+
+### Syntax
+
+	const name1 = value1 [, name2 = value2 [, ... [, nameN = valueN]]];
+	nameN
+	The constant's name, which can be any legal identifier.
+	valueN
+	The constant's value; this can be any legal expression.
+
+
+
+```js
+const PI = 3.141593
+PI > 3.0 
+```
+
+```js
+//  only in ES5 through the help of object properties
+//  and only in global context and not in a block scope
+Object.defineProperty(typeof global === "object" ? global : window, "PI", {
+	value:        3.141593,
+	enumerable:   true,
+	writable:     false,
+	configurable: false
+ })
+PI > 3.0;
+```
+	
+#### Useful Links:
+[Mozilla Developers Network](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Statements/const)
+[es6-features.org](http://es6-features.org/#Constants)
+=======
+
+=======
 
 ## Arrow Functions (Abimbola Aderoju)
 Arrow functions are a brand new feature in ECMAScript 2015 (ES6). Thay serve two main purposes: more concise syntax and sharing lexical this with the parent scope.
@@ -13,7 +53,7 @@ Read official documentation on [ES6: Expression Bodies](http://es6-features.org/
 Below is a code snippet with expression bodies
 
 
-```
+```js
 odds  = evens.map(v => v + 1)
 pairs = evens.map(v => ({ even: v, odd: v + 1 }))
 nums  = evens.map((v, i) => v + i)
@@ -27,7 +67,7 @@ Below is a code snippet with statement bodies
 
 
 
-```
+```js
 nums.forEach(v => {
    if (v % 5 === 0)
        fives.push(v)
@@ -37,7 +77,7 @@ nums.forEach(v => {
 =======
 ##Extended Parameter Handling (Arigbeta Kessy)
 
-Thesde features are added on ES-6.Simple and intuitive default values for function parameters. Parameter handling has been significantly upgraded in ECMAScript 6.
+These features are added on ES-6.Simple and intuitive default values for function parameters. Parameter handling has been significantly upgraded in ECMAScript 6.
 
 It now supports parameter:
 
@@ -80,6 +120,7 @@ function selectEntries({ start=0, end=-1, step=1 } = {}) {
 ```
 Read official documentation on [Exploring JS: Parameter Handling](http://exploringjs.com/es6/ch_parameter-handling.html)
 =======
+
 # ES6 Cool Features
 A documentation of some ES6 cool new awesome features
 
@@ -107,7 +148,7 @@ class name extends class2 {
 	}
 ```
 
+<<<<<<< HEAD
+Read official documentation on [Mozilla Developer Network: Classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/clorigin
+=======
 Read official documentation on [Mozilla Developer Network: Classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/class)
-
->>>>>>> 9c35ff029bc8482b71ac223a16e1ae0d8c825083
->>>>>>> 7091144496cc9ad5c19297e8b26b6c7a8e54dcaf
