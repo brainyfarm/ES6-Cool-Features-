@@ -2,9 +2,11 @@
 Some cool stuff about ES6
 
 ## Constants (Olah Femi Johson)
+=======
 
 The const declaration creates a read-only reference to a value.
 It does not mean the value it holds is immutable, just that the variable identifier cannot be reassigned.
+
 Notice: this only makes the variable itself immutable, not its assigned content
 (for instance, in case the content is an object, this means the object itself can still be altered).
 
@@ -44,7 +46,8 @@ PI > 3.0;
 =======
 
 
-## Iteration Protocols(ADEDEJI JOLAOLUWA)
+## Iteration Protocols (ADEDEJI JOLAOLUWA)
+=======
 
 Definition-The iterable protocol allows JavaScript objects to define or customize their iteration behavior, such as what values are looped over in a for..of construct.It defines a standard way to produce a sequence of values (either finite or infinite).
 
@@ -60,12 +63,12 @@ iterator.next();  // { value: undefined, done: true }
 
 ```
 
-Read official documentation on [Mozilla Developer Network: Iteration Protocol] (https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Iteration_protocols)
+Read official documentation on [Mozilla Developer Network: Iteration Protocol](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Iteration_protocols)
 
 =======
-<<<<<<< HEAD
 
 ## Arrow Functions (Abimbola Aderoju)
+=======
 Arrow functions are a brand new feature in ECMAScript 2015 (ES6). Thay serve two main purposes: more concise syntax and sharing lexical this with the parent scope.
 
 
@@ -96,8 +99,9 @@ nums.forEach(v => {
 })
 
 ```
+
+## Extended Parameter Handling (Arigbeta Kessy)
 =======
-##Extended Parameter Handling (Arigbeta Kessy)
 
 These features are added on ES-6.Simple and intuitive default values for function parameters. Parameter handling has been significantly upgraded in ECMAScript 6.
 
@@ -109,7 +113,8 @@ It now supports parameter:
 
 ###Default parameter values:
 
-Example.
+* Example.
+
 ```js
 function findClosestShape(x=0, y=0) {
     // ...
@@ -118,8 +123,9 @@ function findClosestShape(x=0, y=0) {
 Read official documentation on[Exploring JS: ES6- Features](http://es6-features.org/#DefaultParameterValues)
 
 
-###Rest parameters:
-Examples:
+### Rest parameters:
+* Examples:
+
 ```js
 function format(pattern, ...params) {
     return params;
@@ -128,9 +134,9 @@ console.log(format('a', 'b', 'c')); // ['b', 'c']
 ```
 Read official documentation on[Exploring JS: ES6-Features](http://es6-features.org/#RestParameter)
 
-###Named parameters via destructuring:
+### Named parameters via destructuring:
+* Example:
 
-Example:
 ```
 function selectEntries({ start=0, end=-1, step=1 } = {}) {
     // The object pattern is an abbreviation of:
@@ -141,14 +147,11 @@ function selectEntries({ start=0, end=-1, step=1 } = {}) {
 }
 ```
 Read official documentation on [Exploring JS: Parameter Handling](http://exploringjs.com/es6/ch_parameter-handling.html)
-=======
-
-# ES6 Cool Features
-A documentation of some ES6 cool new awesome features
 
 
 
 ## Class Declaration (Olawale Akinseye)
+=======
 
 Javascript is now more powerful as classes has now been intoduced into the language.
 
@@ -170,14 +173,7 @@ class name extends class2 {
 	}
 ```
 
-<<<<<<< HEAD
 Read official documentation on [Mozilla Developer Network: Classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/clorigin
 =======
 Read official documentation on [Mozilla Developer Network: Classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/class)
-<<<<<<< HEAD
 =======
-
->>>>>>> 9c35ff029bc8482b71ac223a16e1ae0d8c825083
->>>>>>> 7091144496cc9ad5c19297e8b26b6c7a8e54dcaf
->>>>>>> master
->>>>>>> jolaoluwa
