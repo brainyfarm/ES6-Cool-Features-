@@ -175,4 +175,3 @@ class name extends class2 {
 
 
 Read official documentation on [Mozilla Developer Network: Classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/class)
-=======
