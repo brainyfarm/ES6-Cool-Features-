@@ -1,6 +1,40 @@
 <<<<<<< HEAD
 # ES6-Cool-Features-
 Some cool stuff about ES6
+<<<<<<< HEAD
+
+## Arrow Functions (Abimbola Aderoju)
+Arrow functions are a brand new feature in ECMAScript 2015 (ES6). Thay serve two main purposes: more concise syntax and sharing lexical this with the parent scope.
+
+
+### Expression Bodies 
+Read official documentation on [ES6: Expression Bodies](http://es6-features.org/#ExpressionBodies)
+
+Below is a code snippet with expression bodies
+
+
+```
+odds  = evens.map(v => v + 1)
+pairs = evens.map(v => ({ even: v, odd: v + 1 }))
+nums  = evens.map((v, i) => v + i)
+
+```
+
+### Statement Bodies
+Read official documentation on [ES6: Statement Bodies](http://es6-features.org/#StatementBodies)
+
+Below is a code snippet with statement bodies
+
+
+
+```
+nums.forEach(v => {
+   if (v % 5 === 0)
+       fives.push(v)
+})
+
+```
+=======
 ##Extended Parameter Handling (Arigbeta Kessy)
 
 Thesde features are added on ES-6.Simple and intuitive default values for function parameters. Parameter handling has been significantly upgraded in ECMAScript 6.
@@ -76,3 +110,4 @@ class name extends class2 {
 Read official documentation on [Mozilla Developer Network: Classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/class)
 
 >>>>>>> 9c35ff029bc8482b71ac223a16e1ae0d8c825083
+>>>>>>> 7091144496cc9ad5c19297e8b26b6c7a8e54dcaf
