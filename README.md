@@ -1,5 +1,4 @@
 # ES6 COOL FEATURES
-Some cool stuff about ES6
 
 ## Constants (Olah Femi Johson)
 =======
@@ -39,14 +38,12 @@ PI > 3.0;
 ```
 	
 #### Useful Links:
-[Mozilla Developers Network](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Statements/const)
-[es6-features.org](http://es6-features.org/#Constants)
+[Mozilla Developers Network](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Statements/const), [es6-features.org](http://es6-features.org/#Constants)
+=======
 =======
 
-=======
 
-
-## Iteration Protocols (ADEDEJI JOLAOLUWA)
+## Iteration Protocols (Adedeji Jolaoluwa)
 =======
 
 Definition-The iterable protocol allows JavaScript objects to define or customize their iteration behavior, such as what values are looped over in a for..of construct.It defines a standard way to produce a sequence of values (either finite or infinite).
@@ -66,6 +63,9 @@ iterator.next();  // { value: undefined, done: true }
 Read official documentation on [Mozilla Developer Network: Iteration Protocol](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Iteration_protocols)
 
 =======
+=======
+
+
 
 ## Arrow Functions (Abimbola Aderoju)
 =======
@@ -148,6 +148,9 @@ function selectEntries({ start=0, end=-1, step=1 } = {}) {
 ```
 Read official documentation on [Exploring JS: Parameter Handling](http://exploringjs.com/es6/ch_parameter-handling.html)
 
+=======
+=======
+
 
 
 ## Class Declaration (Olawale Akinseye)
@@ -175,3 +178,6 @@ class name extends class2 {
 
 
 Read official documentation on [Mozilla Developer Network: Classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/class)
+
+=======
+=======
