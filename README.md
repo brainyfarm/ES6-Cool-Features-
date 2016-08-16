@@ -1,4 +1,4 @@
-# ES6-Cool-Features-
+# ES6 COOL FEATURES
 Some cool stuff about ES6
 
 ## Constants (Olah Femi Johson)
